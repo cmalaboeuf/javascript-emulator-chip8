@@ -11,7 +11,7 @@ Position.prototype.initialize = function(_x,_y){
 }
 
 var Pixel  = function(_x,_y,_color){
-	this.position = new Position();
+	this.position = new Position(_x,_y);
 
 	/*8 Bits*/
 	this.color = null|| _color;

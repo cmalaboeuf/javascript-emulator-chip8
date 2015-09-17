@@ -4,7 +4,7 @@ document.onreadystatechange = function () {
    }
  }
 function init(){
-	var canvas = document.getElementById("canvas");
+	var canvas = document.getElementById("screen");
 	var screen = new Screen(canvas);
 
 }
